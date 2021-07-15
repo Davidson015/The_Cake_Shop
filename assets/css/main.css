@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&family=Petit+Formal+Script&family=Ruthie&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 24px;
+}
+
+.my-nav--{
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bolder;
+    /* font-size: 5vmax !important; */
+}
+
+.my-img{
+    height: 100vh;
+}
+
+.parallax{
+    background-image: url("../images/samia-liamani-HGl1Q2Y-mbw-unsplash.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+}
+
+.parallax-1{
+  /* The image used */
+  background-image: url("../images/background.jpg");
+
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+}
+
+.products-snippets{
+    min-height: 110vh;
+}
+
+.my-footer a{
+    text-decoration: none;
+    color: inherit;
+}
+.my-footer ul,li{
+    text-indent: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.my-payment img{
+    height: 10vh;
+    width: 5vw;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax, .parallax-1{
+    background-attachment: scroll;
+  }
+}
+
+.products img{
+    height: 100%;
+    width: 100%;
+}
