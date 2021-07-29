@@ -86,6 +86,10 @@ body{
   .products-snippets{
       min-height: 50vh;
   }
+  .my-map{
+      height: 70vh !important;
+      width: 90vw !important;
+  }
 }
 
 .products img{
