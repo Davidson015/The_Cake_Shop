@@ -66,8 +66,25 @@ body{
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax, .parallax-1{
+  .parallax{
     background-attachment: scroll;
+  }
+  .parallax-1{
+      background-image: none;
+      min-height: 0;
+      filter: none;
+  }
+  .myline{
+      color: #000; /* Fallback for older browsers */
+      color: rgba(0, 0, 0, 0);
+      margin: 0 !important;
+  }
+  .my-img{
+      height: 70vh;
+      filter: none !important;
+  }
+  .products-snippets{
+      min-height: 50vh;
   }
 }
 
