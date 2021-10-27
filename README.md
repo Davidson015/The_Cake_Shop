@@ -1,4 +1,4 @@
 # The_Cake_Shop
- Aptech Semester 1 E-Project
+ Aptech First Semester E-Project
 
 https://dcakeshop.netlify.app/
